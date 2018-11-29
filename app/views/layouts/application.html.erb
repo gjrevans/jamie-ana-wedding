@@ -1,11 +1,28 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>JamieAnaWedding</title>
+    <title>Jamie & Anastasia Are Getting Married</title>
+    <meta name="author" content="Gordon Evans">
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Jamie & Anastasia Are Getting Married">
+    <meta name="keywords" content="Jamie & Anastasia Are Getting Married">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <!-- Add to Calendar Button -->
+    <script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
+    <!-- AddEvent Settings -->
+    <script type="text/javascript">
+      window.addeventasync = function(){
+        addeventatc.settings({
+          css: false
+        });
+      };
+    </script>
   </head>
 
   <body>

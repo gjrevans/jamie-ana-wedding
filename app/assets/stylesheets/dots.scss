@@ -1,0 +1,21 @@
+.dot {
+  position: absolute;
+  border-radius: 50%;
+  @each $size, $value in $content-spacing {
+    &--#{$size} {
+      width: $value;
+      height: $value;
+    }
+  }
+  @each $color, $value in $theme-colors {
+    &--#{$color} {
+      background-color: rgba($value, 30%);
+    }
+  }
+  @for $i from 1 through 30 {
+    &:nth-child(#{$i}) {
+      top: percentage(random(100) / 100);
+      left: percentage(random(100) / 100);
+    }
+  }
+}

@@ -1,0 +1,40 @@
+$box-size: 24rem;
+$box-stroke: 1rem;
+
+.box {
+  &--heading {
+    color: white;
+    width: $box-size;
+    height: $box-size;
+    border: solid $box-stroke white;
+    font-family: $font-family-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include media-breakpoint-down(md) {
+      height: 70vh;
+      width: 100%;
+    }
+  }
+  &--background {
+    padding: 1rem;
+    color: $primary;
+    border: solid $box-stroke $primary;
+  }
+  &--details {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    color: white;
+    border: solid $box-stroke white;
+  }
+
+  &__body {
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 2rem;
+  }
+}

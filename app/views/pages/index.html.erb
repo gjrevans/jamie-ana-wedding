@@ -1,0 +1,129 @@
+<section class="section section--primary section--header">
+  <div class="container">
+    <div class="box box--heading">
+      <div class="box__body">
+        We're tying the knot.
+      </div>
+    </div>
+    <div class="section__bounce text-white">
+      <i class="fas fa-angle-down fa-2x animated infinite bounce"></i>
+    </div>
+  </div>
+</section>
+
+<section class="section section--white section--cta text-center">
+  <div class="dots">
+    <% (1..50).each do |i| %>
+      <% color = ["secondary", "info", "success", "warning", "danger"].sample %>
+      <% size = ["xs", "sm", "md", "lg", "xl"].sample %>
+      <% animation = ["fadeInDown", "fadeInUp", "fadeInLeft", "fadeInRight"].sample %>
+      <div class="dot dot--<%= size %> dot--<%= color%> animated fadeInDown <%= animation %> animation-delay--<%= i %>"></div>
+    <% end %>
+  </div>
+  <!-- Content -->
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="box box--background mb-3">
+          Please save the date,
+          <h1 class="text-serif">Jamie & Anastasia</h1>
+          Are getting married on September 21st, 2019 at the Old Mill, Toronto Ontario.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--primary section--lg text-center text-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="box box--details">
+          <div class="mb-3">
+            <h6 class="text-uppercase font-weight-bold text-dark-red">Address</h6>
+            <p>The Old Mill</p>
+            <p>21 Old Mill Rd<br />Toronto, ON M8X 1G5</p>
+          </div>
+          <div>
+            <a href="https://www.google.com/maps/search/21+Old+Mill+Rd+Toronto+ON+M8X+1G5+Canada" class="btn btn-outline-white">Get Directions</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="box box--details">
+          <div>
+            <h6 class="text-uppercase font-weight-bold text-dark-red">Date</h6>
+            <p>Saturday, September 21st, 2019</p>
+          </div>
+          <div>
+            <div class="small mb-1 text-dark-red">
+              Click Below to add to calendar...
+            </div>
+            <div title="Add to Calendar" class="addeventatc" data-style="none">
+              <div class="date">
+                <span class="mon">Sept</span>
+                <span class="day">19</span>
+                <div class="bdr1"></div>
+                <div class="bdr2"></div>
+              </div>
+              <div class="desc">
+                <p>
+                  <strong class="hed">Jamie & Anastasia</strong>
+                  <span class="des">Location: The Old Mill Toronto<br />Date: September 19 2019</span>
+                </p>
+              </div>
+              <span class="start">9/21/2019 08:00 AM</span>
+              <span class="all_day_event">true</span>
+              <span class="timezone">America/Toronto</span>
+              <span class="title">Jamie & Ana Wedding</span>
+              <span class="description">We're getting married on Sept. 21, 2019. Please join us at the Old Mill in Toronto.</span>
+              <span class="location">The Old Mill - 21 Old Mill Rd Toronto, ON M8X 1G5</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="box box--details">
+          <div>
+            <h6 class="text-uppercase font-weight-bold text-dark-red">Hosts</h6>
+            <p>Jamie & Anastasia look forward to seeing you at their momentus occaustion.</p>
+          </div>
+          <div>
+            <a href="mailto:jamie.riley.evans@gmail.com" class="btn btn-outline-white">Send a Message</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--white section--md text-center">
+  <div class="dots">
+    <% (1..50).each do |i| %>
+      <% color = ["secondary", "info", "success", "warning", "danger"].sample %>
+      <% size = ["xs", "sm", "md", "lg", "xl"].sample %>
+      <% animation = ["fadeInDown", "fadeInUp", "fadeInLeft", "fadeInRight"].sample %>
+      <div class="dot dot--<%= size %> dot--<%= color%> animated fadeInDown <%= animation %> animation-delay--<%= i %>"></div>
+    <% end %>
+  </div>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <h6 class="text-uppercase text-muted text-sans-serif">Notes</h6>
+        <p>To book a discounted room at the Old Mill, call <a href="tel:14162323707">1 (416) 232 - 3707</a> and give them our names and the function number <span class="badge badge-primary badge-pill">65521</span>.</p>
+        <p>Please note that rooms are booking up fast.</p>
+        <p>We're so excited to see everyone!</p>
+        <p>-- Jamie & Anastasia</p>
+        <a href="mailto:jamie.riley.evans@gmail.com" class="btn btn-primary px-5">Send a Message</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--light section--md text-center">
+  <div class="container">
+    <i class="far fa-grin-hearts fa-2x text-primary mb-3"></i>
+    <div>Jamie & Anastasia</div>
+    <small>Tying the Knot in 2019</small>
+  </div>
+</section>

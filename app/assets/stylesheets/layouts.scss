@@ -1,0 +1,43 @@
+.section {
+  position: relative;
+  &__bounce {
+    position: absolute;
+    height: 2rem;
+    width: 2rem;
+    bottom: 3rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  &--header {
+    display: flex;
+    align-items: center;
+
+    height: 36rem;
+    background: url("background-left.jpg");
+    background-position: center;
+    background-size: cover;
+
+    @include media-breakpoint-down(md) {
+      height: 100vh;
+      background-position: 540px;
+    }
+  }
+  &--cta {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 26rem;
+  }
+  @each $size, $value in $content-spacing {
+    &--#{$size} {
+      padding: $value 0 ;
+    }
+  }
+  @each $color, $value in $theme-colors {
+    &--#{$color} {
+      background-color: $value;
+    }
+  }
+}

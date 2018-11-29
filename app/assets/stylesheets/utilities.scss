@@ -1,0 +1,11 @@
+.text-serif {
+  font-family: $font-family-serif;
+}
+
+.animation-delay {
+  @for $i from 1 through 50 {
+    &--#{$i} {
+      animation-delay: #{$i/5}s;
+    }
+  }
+}
