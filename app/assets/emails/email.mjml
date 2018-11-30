@@ -1,0 +1,62 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Lato" href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" />
+    <mj-font name="Merriweather" href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700" />
+    <mj-style>
+      a {
+        color: #bd1a5b;
+      }
+    </mj-style>
+    <mj-attributes>
+      <mj-all font-family="Lato, Helvetica, Arial, sans-serif" padding="0px"></mj-all>
+      <mj-text color="#464c54" font-family="Lato, Helvetica, Arial, sans-serif" align="center" font-size="14px" line-height="20px"></mj-text>
+      <mj-button background-color="#bd1a5b" color="#fff" />
+      <mj-section background-color="#ffffff"></mj-section>
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#bd1a5b">
+    <mj-section>
+      <mj-column width="100%">
+        <mj-image src="https://s3.amazonaws.com/jamie-ana-wedding/background.jpg" alt="header image" padding="0px"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-bottom="30px" padding-top="30px">
+      <mj-column>
+        <mj-text>
+          Please save the date,
+        </mj-text>
+        <mj-text color="#bd1a5b" font-size="25px" font-family="Merriweather" font-weight="700" line-height="35px">
+          Jamie & Anastasia
+        </mj-text>
+        <mj-text>
+          are getting married on September 21st, 2019
+        </mj-text>
+        <mj-text padding-bottom="20px" padding-top="20px">
+          The wedding will take place at the Old Mill in Toronto
+        </mj-text>
+        <mj-text>
+          Invitation to Follow
+        </mj-text>
+        <mj-button href="https://jamie-ana-wedding.herokuapp.com" padding="20px 0 20px 0">
+            View the Details
+        </mj-button>
+        <mj-text padding-top="10px">
+          With Love,<br />
+          Jamie & Anistasia.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-bottom="30px">
+      <mj-column>
+        <mj-text color="grey">
+          <a href="https://www.google.com/maps/search/21+Old+Mill+Rd+Toronto+ON+M8X+1G5+Canada" target="_blank">View Map</a>
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text>
+          <a href="https://jamie-ana-wedding.heroku.app#details" target="_blank">Add To Calendar</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
