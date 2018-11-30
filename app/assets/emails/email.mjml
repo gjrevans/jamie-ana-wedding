@@ -54,7 +54,7 @@
       </mj-column>
       <mj-column>
         <mj-text>
-          <a href="https://jamie-ana-wedding.heroku.app#details" target="_blank">Add To Calendar</a>
+          <a href="https://jamie-ana-wedding.herokuapp.com/#details" target="_blank">Add To Calendar</a>
         </mj-text>
       </mj-column>
     </mj-section>
