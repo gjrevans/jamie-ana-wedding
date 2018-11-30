@@ -1,3 +1,9 @@
+body {
+  @include media-breakpoint-down(md) {
+    padding-top: 100vh;
+  }
+
+}
 .section {
   position: relative;
   &__bounce {
@@ -19,8 +25,13 @@
     background-size: cover;
 
     @include media-breakpoint-down(md) {
+      position: fixed;
+      width: 100%;
+      top: 0;
+      background: image_url("background-mobile.jpg");
       height: 100vh;
-      background-position: 540px;
+      background-position: center;
+      background-size: cover;
     }
   }
   &--cta {
