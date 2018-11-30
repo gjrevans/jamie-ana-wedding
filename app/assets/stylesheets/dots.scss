@@ -12,7 +12,7 @@
       background-color: rgba($value, 30%);
     }
   }
-  @for $i from 1 through 30 {
+  @for $i from 1 through 50 {
     &:nth-child(#{$i}) {
       top: percentage(random(100) / 100);
       left: percentage(random(100) / 100);
